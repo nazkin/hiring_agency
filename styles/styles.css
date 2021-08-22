@@ -43,6 +43,9 @@ nav li a {
   margin-left: 10px;
   display: none;
 }
+.nav-menu {
+  color: #160f29;
+}
 .flex-r-center {
   display: flex;
   flex-direction: row;
@@ -93,12 +96,12 @@ nav li a {
 }
 
 #sidenav-logo {
-  background-color: #2a2d2e;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 5rem;
-  color: white;
+  border-bottom: 1px solid #160f29;
 }
 .overlay {
   width: 100%;
