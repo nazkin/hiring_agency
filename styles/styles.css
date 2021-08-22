@@ -13,19 +13,25 @@ footer {
   border-top: 2px solid #2a2d2e;
 }
 nav {
-  background-color: #2a2d2e;
+  background-color: #f5f0f6;
+  border-bottom: 2px double #160f29;
+}
+nav li a {
+  color: #160f29;
+  border-bottom: 1px solid transparent;
+  font-size: 1.2rem;
 }
 .nav-bottom {
-  background-color: #2a2d2e;
+  background-color: whitesmoke;
   height: 2.5rem;
   width: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: flex-end;
 }
 .nav-statement {
   font-size: 1.2rem;
-  color: #ef3340;
+  color: #2a2d2e;
   letter-spacing: 0;
   margin-right: 15px;
   margin-left: 15px;

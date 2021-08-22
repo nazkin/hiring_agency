@@ -4,9 +4,9 @@
   background: #e2dcd6;
 }
 .hero-img {
-  background-image: url("../assets/lights.jpg");
+  background-image: url("../assets/office.jpg");
   background-repeat: no-repeat;
-  background-position: 0% 20%;
+  background-position: 0% 45%;
   width: 100%;
   height: 40rem;
   max-height: 90vh;
@@ -20,51 +20,47 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding: 1rem;
   overflow: hidden;
 }
 .hero-text {
-  background-color: #e2dcd6;
-  color: black;
-  border: 2px solid #e2dcd6;
+  background-color: transparent;
+  color: #160f29;
+  /* border: 2px solid #282b28; */
   border-radius: 2px;
   font-size: 3rem; /* Responsive font size */
-  font-weight: bold;
+  font-weight: 400;
   text-align: center; /* Center text */
-  margin: 1.5rem;
-  padding: 1px;
-  mix-blend-mode: screen;
+  margin: 1rem;
+  /* mix-blend-mode: screen; */
 }
 .small-hero-text {
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.85);
-  color: whitesmoke;
+  color: #160f29;
   text-align: center;
   max-width: 100%;
+  font-size: 2.5rem;
 }
 .hero-cta {
-  padding: 1rem;
-  width: 100%;
-  height: 80%;
   margin-top: 2rem;
+  width: 100%;
 }
 .cta-btn {
   width: 20rem;
   height: 5.5rem;
   font-size: 2.5rem;
   text-transform: none;
-  color: white;
-  background-color: #ef3340;
+  color: #f5f0f6;
+  background-color: #160f29;
   font-weight: 300;
-  border: 4px solid #ef3340;
+  border: 4px solid #160f29;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .cta-btn:hover {
-  background-color: #ef3340;
+  background-color: #160f29;
   border: 4px solid #e2dcd6;
-  color: whitesmoke;
+  color: #f5f0f6;
 }
 .mission-container {
   height: 70vh;
@@ -75,30 +71,30 @@
   background: white;
 }
 .mission-title {
-  font-size: 2rem;
-  color: #ef3340;
-  font-weight: 400;
+  color: #5fa6b3;
+  font-size: 6rem;
+  font-weight: 600;
 }
 .mission-body {
-  color: 2a2d2e;
+  color: rgb(72, 75, 78);
   font-weight: 300;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2rem;
 }
 .services-container {
-  height: 40rem;
-  background: #2a2d2e;
+  min-height: 40rem;
+  background: #f5f0f6;
 }
 .services-title {
   font-size: 6rem;
-  color: #4a4c4d;
+  color: #16697a;
   font-weight: 600;
   float: right;
   margin-right: 1rem;
 }
 .services-body {
-  color: whitesmoke;
+  color: rgb(72, 75, 78);
   font-weight: 300;
   text-align: center;
   font-size: 1.1rem;
@@ -111,13 +107,13 @@
   align-items: center;
   height: 40rem;
   width: 100%;
-  background: #3d4041;
+  background: #5fa6b3;
 }
 .services-body-container {
   padding-left: 5rem;
   padding-right: 5rem;
   padding-top: 0rem;
-  border-right: 4px solid #ef3340;
+  border-right: 4px solid #16697a;
   margin-right: 1rem;
   max-height: 30rem;
   overflow: hidden;
@@ -126,16 +122,21 @@
   padding: 2.5rem;
 }
 .service-btn {
-  border: 2px solid #ef3340;
+  border: 2px solid #160f29;
+  background-color: transparent;
+  color: #160f29;
+
   height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: whitesmoke;
+
   font-weight: bold;
 }
 .service-btn:hover {
-  border: 2px solid #2a2d2e;
+  border: 2px solid #160f29;
+  color: white;
+  background-color: #160f29;
 }
 .service-assistant {
   background-image: url("../assets/assisstants.jpg");
@@ -144,6 +145,7 @@
   width: 90%;
   height: 15rem;
   cursor: pointer;
+  box-shadow: 2px 0px 1px 0px rgba(0, 0, 0, 0.5);
 }
 .overlay {
   width: 100%;
@@ -162,41 +164,45 @@
   width: 90%;
   height: 15rem;
   cursor: pointer;
+  box-shadow: 2px 0px 1px 0px rgba(0, 0, 0, 0.5);
 }
 .service-img-txt {
   font-size: 2rem;
   font-weight: 300;
-  color: whitesmoke;
+  color: white;
   text-align: center;
-  border-bottom: 2px solid whitesmoke;
+  background: #16697a;
+  padding: 5px;
+  border-bottom: 2px solid white;
 }
 .main-cta-container {
   height: 33rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 .cta {
   color: whitesmoke;
   font-weight: 300;
   font-size: 3rem;
+  text-align: center;
 }
 .main-cta-btn {
-  border: 2px solid #e2dcd6;
+  border: 2px solid #5fa6b3;
   height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #e2dcd6;
-  background: rgba(0, 0, 0, 0.25);
+  color: #f5f0f6;
+  background: rgba(0, 0, 0, 0.15);
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 .main-cta-btn:hover {
-  background: #e2dcd6;
-  border: 2px solid #2a2d2e;
+  background: #5fa6b3;
+  border: 2px solid #5fa6b3;
   color: #2a2d2e;
 }
 .cta-icon {
-  color: #ef3340;
+  color: #f5f0f6;
 }
