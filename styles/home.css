@@ -87,7 +87,7 @@
     rgba(22, 105, 122, 1) 0%,
     rgba(22, 15, 41, 1) 100%
   );
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 300;
   text-align: center;
   background-clip: text;
@@ -153,6 +153,7 @@
   font-weight: 300;
   font-size: 3rem;
   text-align: center;
+  text-transform: uppercase;
 }
 .main-cta-btn {
   border: 2px solid #5fa6b3;
@@ -186,7 +187,7 @@
 
 .wht {
   min-height: 20rem;
-  padding-left: 2rem;
+
   margin: 40px;
   display: flex;
   justify-content: space-between;
@@ -238,6 +239,7 @@
   font-size: 3rem;
   font-weight: bold;
   color: #16697a;
+  width: 90%;
 }
 .serv-cta {
   background-color: rgba(255, 255, 255, 0.3);
