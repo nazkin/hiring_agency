@@ -107,25 +107,18 @@
   min-height: 35rem;
   background: #f5f0f6;
   padding: 2rem;
+  position: relative;
 }
 
 .services-title {
-  font-size: 5rem;
-  font-weight: 300;
-  display: none;
-  margin: 4rem;
-  text-align: center;
-  background: rgb(22, 105, 122);
-  background: linear-gradient(
-    164deg,
-    rgba(22, 105, 122, 1) 41%,
-    rgba(95, 166, 179, 1) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
+  font-size: 15rem;
+  font-weight: 600;
+  position: absolute;
+  width: 80%;
+  height: 11rem;
+  top: 0;
+  left: 0;
+  color: #e7dee9;
 }
 
 .service-btn {
@@ -234,7 +227,7 @@
 .serv-row {
   background-image: url("../assets/Drawing.png");
   background-position: 20% 10%;
-  margin-top: 3rem;
+  margin-top: 10%;
   margin-bottom: 3rem;
 }
 .serv-row-2 {
