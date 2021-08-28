@@ -16,8 +16,8 @@ nav {
   z-index: 10;
   position: absolute;
   top: 0;
-  border-bottom: 2px solid silver;
-  box-shadow: none;
+  /* border-bottom: 2px solid silver; */
+  box-shadow: 2px 2px 3px 0px #160f298e;
   min-height: 80px;
 }
 .nav-links {
