@@ -15,6 +15,11 @@ const observer = new IntersectionObserver((entries) => {
         entry.target.classList.add("animate__slideInRight");
         return;
       }
+      if (entry.target.attributes[0].value === "mission-title") {
+        entry.target.classList.remove("animate__slideOutLeft");
+        entry.target.classList.add("animate__slideInLeft");
+        return;
+      }
 
       if (entry.target.attributes[0].value === "mission") {
         entry.target.classList.remove("animate__slideOutRight");
@@ -50,15 +55,11 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-//Mission body
+observer.observe(document.querySelector("#mission-title"));
 observer.observe(document.querySelector("#mission"));
 
-//Left Card
 observer.observe(document.querySelector("#card1"));
-
-//Right Card
 observer.observe(document.querySelector("#card2"));
-
 observer.observe(document.querySelector("#service-title"));
 observer.observe(document.querySelector("#service-list"));
 observer.observe(document.querySelector("#service-btn"));
