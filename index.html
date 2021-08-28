@@ -37,23 +37,25 @@
     <title>Hiring Agency</title>
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">
-          <img src="assets/logo.png" height="60px" width="auto" />
-        </a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons nav-menu">dehaze</i></a
-        >
-        <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="process.html">Process</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="nav-bottom">
+    <div class="navbar-fixed nav-container">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons nav-menu">dehaze</i></a
+          >
+          <ul class="left hide-on-med-and-down nav-links">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- <div class="nav-bottom">
       <div class="flex-c-start nav-contact hide-on-med-and-down">
         <p class="center-aligned">647-646-6646</p>
         <p class="center-aligned">info@email.com</p>
@@ -61,7 +63,7 @@
       <h4 class="nav-statement">
         Leading Staffing Agency Specializing in Dental Services
       </h4>
-    </div>
+    </div> -->
     <ul class="sidenav" id="mobile-demo">
       <li id="sidenav-logo">
         <img src="assets/logo.png" height="68px" width="auto" />
@@ -75,6 +77,10 @@
       <div class="hero-img">
         <div class="row hero-row">
           <div class="col s12 hero-texts hide-on-med-and-down">
+            <div class="animate__animated animate__fadeInRight">
+              <img src="assets/logo.png" height="100px" width="auto" />
+            </div>
+
             <div class="hero-text animate__animated animate__fadeInRight">
               HIGH-QUALITY
             </div>
@@ -122,6 +128,7 @@
         </div>
         <div class="col s12">
           <div
+            id="mission"
             class="
               container
               mission-txt-container
@@ -145,7 +152,10 @@
       <span class="services-title hide-on-med-and-down">SERVICES</span>
       <div class="row serv-row">
         <div class="col l4 offset-l1 flex-c-center">
-          <div class="card service-card">
+          <div
+            id="card1"
+            class="card service-card animate__animated animate__slideOutLeft"
+          >
             <div class="card-image waves-effect waves-block waves-light">
               <img
                 class="activator"
@@ -156,28 +166,40 @@
             </div>
             <div class="card-content">
               <span class="card-title activator"
-                >Dental Hygenists<i
-                  class="material-icons right service-card-btn"
+                ><span class="card-title-text">Dental Hygenists</span
+                ><i class="material-icons right service-card-btn"
                   >keyboard_arrow_up</i
                 ></span
               >
             </div>
             <div class="card-reveal">
               <span class="card-title"
-                >Dental Hygenists<i class="material-icons right card-close-btn"
-                  >close</i
-                ></span
+                ><span class="card-title-text">Dental Hygenists</span
+                ><i class="material-icons right card-close-btn">close</i></span
               >
-              <p>
-                Here is some more information about this product that is only
-                revealed once clicked on.
-              </p>
+              <div class="card-desc">
+                <i class="material-icons card-desc-icon">person</i>
+                <p>
+                  Here is some more information about this product that is only
+                  revealed once clicked on. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </p>
+                <i class="material-icons card-desc-icon">school</i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis harum officiis alias iure doloribus. Repellendus,
+                  consequatur suscipit ab natus deleniti nam cupiditate quis.
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col l2 flex-c-center"></div>
         <div class="col l4 flex-c-center">
-          <div class="card service-card">
+          <div
+            id="card2"
+            class="card service-card animate__animated animate__slideOutRight"
+          >
             <div class="card-image waves-effect waves-block waves-light">
               <img
                 class="activator"
@@ -188,33 +210,51 @@
             </div>
             <div class="card-content">
               <span class="card-title activator"
-                >Dental Assisstants<i
-                  class="material-icons right service-card-btn"
+                ><span class="card-title-text">Dental Assisstants</span>
+                <i class="material-icons right service-card-btn"
                   >keyboard_arrow_up</i
                 ></span
               >
             </div>
             <div class="card-reveal slide-content">
               <span class="card-title"
-                >Dental Assisstants<i
-                  class="material-icons right card-close-btn"
-                  >close</i
-                ></span
+                ><span class="card-title-text">Dental Assisstants</span
+                ><i class="material-icons right card-close-btn">close</i></span
               >
-              <p>
-                Here is some more information about this product that is only
-                revealed once clicked on.
-              </p>
+              <div class="card-desc">
+                <i class="material-icons card-desc-icon">schedule</i>
+                <p>
+                  Here is some more information about this product that is only
+                  revealed once clicked on. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </p>
+                <i class="material-icons card-desc-icon">school</i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis harum officiis alias iure doloribus. Repellendus,
+                  consequatur suscipit ab natus deleniti nam cupiditate quis.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="row serv-row-2">
         <div class="col s12 m12 l10 offset-l1 wht">
-          <h2 class="serv-title-2">
+          <h2
+            id="service-title"
+            class="serv-title-2 animate__animated animate__slideOutLeft"
+          >
             Connecting Dental Offices to Potential Employees
           </h2>
-          <ul class="check-list hide-on-med-and-down">
+          <ul
+            id="service-list"
+            class="
+              check-list
+              hide-on-med-and-down
+              animate__animated animate__slideOutRight
+            "
+          >
             <li>
               It's business solutions through people because we know it’s not
               about what you do.
@@ -233,7 +273,10 @@
             </li>
           </ul>
         </div>
-        <div class="flex-c-center serv-cta">
+        <div
+          id="service-btn"
+          class="flex-c-center serv-cta animate__animated animate__fadeOut"
+        >
           <a class="waves-effect waves-light btn service-btn"
             >MORE ABOUT OUR SERVICES</a
           >
@@ -257,9 +300,18 @@
           <img src="assets/team.jpg" />
         </div>
 
-        <h1 class="cta">Join Your New Team Today !</h1>
+        <h1 id="cta-text" class="cta animate__animated animate__fadeOut">
+          Join Your New Team Today !
+        </h1>
 
-        <a class="waves-effect waves-light btn main-cta-btn"
+        <a
+          id="cta-btn"
+          class="
+            waves-effect waves-light
+            btn
+            main-cta-btn
+            animate__animated animate__fadeOut
+          "
           >GET STARTED NOW <i class="material-icons cta-icon">people</i></a
         >
       </div>
@@ -270,5 +322,6 @@
     </footer>
 
     <script src="scripts/app.js"></script>
+    <script src="scripts/home.js"></script>
   </body>
 </html>

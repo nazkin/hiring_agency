@@ -4,23 +4,47 @@ body {
 p {
   font-family: "Lora", serif;
 }
-
 footer {
   height: 60px;
-  background-color: #f5f0f6;
+  background-color: transparent;
   color: #2a2d2e;
   width: 100%;
   border-top: 2px double #160f29;
 }
 nav {
-  background-color: #f5f0f6;
-  border-bottom: 2px double #160f29;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  border-bottom: 2px solid silver;
+  box-shadow: none;
 }
-nav li a {
-  color: #160f29;
-  border-bottom: 1px solid transparent;
-  font-size: 1.2rem;
+.nav-links {
+  margin-left: 1rem;
 }
+
+.nav-links li a {
+  font-size: 1.3rem !important;
+  line-height: 3.5rem;
+  color: #160f29 !important;
+  opacity: 0.7;
+  text-transform: uppercase !important;
+}
+.nav-links li a:hover {
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+.nav-links .active {
+  background-color: transparent !important;
+}
+.nav-links .active a {
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+.tabs {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
 .nav-bottom {
   background-color: whitesmoke;
   height: 2.5rem;
@@ -42,6 +66,9 @@ nav li a {
   color: tomato;
   margin-left: 10px;
   display: none;
+}
+.brand-logo {
+  margin-left: 1rem;
 }
 .nav-menu {
   color: #160f29;
