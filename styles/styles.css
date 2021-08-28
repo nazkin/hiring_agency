@@ -18,9 +18,19 @@ nav {
   top: 0;
   border-bottom: 2px solid silver;
   box-shadow: none;
+  min-height: 80px;
 }
 .nav-links {
   margin-left: 1rem;
+}
+.logo-txt {
+  font-size: 2rem;
+  color: #a3a0a3;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: italic;
+  display: flex;
+  align-items: flex-end;
 }
 
 .nav-links li a {
