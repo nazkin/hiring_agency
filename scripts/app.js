@@ -6,4 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var instancesParallex = M.Parallax.init(elems2, options);
   var elems3 = document.querySelectorAll(".collapsible");
   var instancesCollapsible = M.Collapsible.init(elems3, options);
+  var elems4 = document.querySelector(".materialize-textarea");
+  elems4.characterCounter();
 });

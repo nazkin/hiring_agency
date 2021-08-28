@@ -1,0 +1,96 @@
+blockquote {
+  margin-top: 4rem;
+  border-left: 8px solid #16697a;
+  font-family: "Lora", serif;
+  color: #2a2d2e;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 2.5rem;
+}
+.contact-section {
+  min-height: 100vh;
+  height: 50rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 77%,
+    rgba(245, 240, 246, 1) 100%
+  );
+  padding: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contact-section .row {
+  background-color: white;
+  height: 100%;
+}
+.contact-desc {
+  margin-top: 4rem;
+  padding: 2rem;
+}
+.contact-desc h1 {
+  font-size: 16rem;
+  font-weight: 600;
+  position: absolute;
+  width: 100%;
+  height: 15rem;
+  top: 1%;
+  left: 1%;
+  color: #e7dee9;
+}
+.contact-map-info {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info span {
+  font-size: 1.3rem;
+  color: #2a2d2e;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.info-icon {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #16697a;
+}
+
+.form-section {
+  min-height: 100vh;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #16697a;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form-section .row {
+  height: 80%;
+  width: 80%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.form-btn {
+}
+.input-field {
+}
