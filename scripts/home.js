@@ -6,49 +6,49 @@ const observer = new IntersectionObserver((entries) => {
     console.log(entry);
     if (entry.isIntersecting) {
       if (entry.target.attributes[0].value === "card1") {
-        entry.target.classList.remove("animate__slideOutLeft");
+        // entry.target.classList.remove("animate__slideOutLeft");
         entry.target.classList.add("animate__slideInLeft");
         return;
       }
       if (entry.target.attributes[0].value === "card2") {
-        entry.target.classList.remove("animate__slideOutRight");
+        // entry.target.classList.remove("animate__slideOutRight");
         entry.target.classList.add("animate__slideInRight");
         return;
       }
       if (entry.target.attributes[0].value === "mission-title") {
-        entry.target.classList.remove("animate__slideOutLeft");
-        entry.target.classList.add("animate__slideInLeft");
+        // entry.target.classList.remove("animate__fadeOutLeft");
+        entry.target.classList.add("animate__fadeInDown");
         return;
       }
 
       if (entry.target.attributes[0].value === "mission") {
-        entry.target.classList.remove("animate__slideOutRight");
-        entry.target.classList.add("animate__slideInRight");
+        // entry.target.classList.remove("animate__fadeOutRight");
+        entry.target.classList.add("animate__fadeInUp");
         return;
       }
       if (entry.target.attributes[0].value === "service-title") {
-        entry.target.classList.remove("animate__slideOutLeft");
-        entry.target.classList.add("animate__slideInLeft");
+        // entry.target.classList.remove("animate__slideOutLeft");
+        entry.target.classList.add("animate__fadeInLeft");
         return;
       }
       if (entry.target.attributes[0].value === "service-list") {
-        entry.target.classList.remove("animate__slideOutRight");
-        entry.target.classList.add("animate__slideInRight");
+        // entry.target.classList.remove("animate__slideOutRight");
+        entry.target.classList.add("animate__fadeInRight");
         return;
       }
       if (entry.target.attributes[0].value === "service-btn") {
-        entry.target.classList.remove("animate__fadeOut");
-        entry.target.classList.add("animate__fadeIn");
+        // entry.target.classList.remove("animate__fadeOut");
+        entry.target.classList.add("animate__fadeInUp");
         return;
       }
       if (entry.target.attributes[0].value === "cta-text") {
-        entry.target.classList.remove("animate__fadeOut");
-        entry.target.classList.add("animate__fadeIn");
+        // entry.target.classList.remove("animate__fadeOut");
+        entry.target.classList.add("animate__fadeInUp");
         return;
       }
       if (entry.target.attributes[0].value === "cta-btn") {
-        entry.target.classList.remove("animate__fadeOut");
-        entry.target.classList.add("animate__fadeIn");
+        // entry.target.classList.remove("animate__fadeOut");
+        entry.target.classList.add("animate__fadeInDown");
         return;
       }
     }
