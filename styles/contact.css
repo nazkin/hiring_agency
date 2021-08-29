@@ -14,14 +14,14 @@ blockquote {
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 77%,
-    rgba(245, 240, 246, 1) 100%
+    rgb(245, 245, 245) 100%
   );
   padding: 6rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
 }
 .contact-section .row {
-  background-color: white;
+  background-color: #fff;
   height: 100%;
 }
 .contact-desc {
@@ -36,7 +36,7 @@ blockquote {
   height: 15rem;
   top: 1%;
   left: 1%;
-  color: #e7dee9;
+  color: #9ecad1;
 }
 .contact-map-info {
   margin-top: 5rem;

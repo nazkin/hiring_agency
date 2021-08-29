@@ -72,7 +72,7 @@
       <li><a href="process.html">Process</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <section class="serv-header">
+    <section class="serv-header animate__animated animate__fadeInDown">
       <div class="overlay flex-c-center">
         <h2 id="serv-header-title">
           Premium Staffing Solutions for Dental Offices
@@ -82,8 +82,10 @@
     <section id="serv-blog-section">
       <div class="row">
         <div class="col s12 serv-blog-title">
-          <h3>How We Solve Your Staffing Issues</h3>
-          <p class="flow-text">
+          <h3 class="animate__animated animate__fadeInLeft">
+            How We Solve Your Staffing Issues
+          </h3>
+          <p class="flow-text animate__animated animate__fadeInRight">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, sapiente repudiandae. Blanditiis praesentium deserunt
             illum vero quibusdam ratione, tempore officia porro labore quisquam
@@ -97,7 +99,7 @@
           </p>
         </div>
         <div class="col s12 m12 l10">
-          <ul class="serv-check-list">
+          <ul id="serv-checklist" class="serv-check-list animate__animated">
             <li>
               <p class="flow-text">
                 Finding great talent is possible. We provide best-in-class
@@ -120,17 +122,24 @@
             </li>
           </ul>
         </div>
-        <div class="col s12 m12 l2 flex-c-center">
-          <img src="assets/logo.png" height="180px" width="auto" />
+        <div class="col s12 m12 l2 flex-c-center checklist-img">
+          <img
+            id="checklist-img"
+            class="animate__animated"
+            src="assets/logo.png"
+            height="180px"
+            width="auto"
+          />
         </div>
       </div>
     </section>
-    <section class="business-process">
+    <section id="business_process" class="business-process animate__animated">
       <h1 class="hide-on-med-and-down">Process</h1>
       <h4 class="show-on-medium hide-on-med-and-up">Process</h4>
       <div class="row process-row">
         <div class="col s12 m6 l3 process-col">
-          <i class="large material-icons center">library_books</i>
+          <!-- <i class="large material-icons center">library_books</i> -->
+          <img src="assets/fingerprint.png" width="100px" height="auto" />
           <div class="process-text flex-c-center">
             <span><h5 class="process-title">IDENTIFY</h5></span>
             <p>
@@ -140,7 +149,8 @@
           </div>
         </div>
         <div class="col s12 m6 l3 process-col">
-          <i class="large material-icons center">thumbs_up_down</i>
+          <!-- <i class="large material-icons center">thumbs_up_down</i> -->
+          <img src="assets/file.png" width="100px" height="auto" />
           <div class="process-text flex-c-center">
             <span><h5 class="process-title">ASSESS</h5></span>
             <p>
@@ -150,7 +160,8 @@
           </div>
         </div>
         <div class="col s12 m6 l3 process-col">
-          <i class="large material-icons center">assistant_photo</i>
+          <!-- <i class="large material-icons center">assistant_photo</i> -->
+          <img src="assets/checked.png" width="100px" height="auto" />
           <div class="process-text flex-c-center">
             <span><h5 class="process-title">DELIVER</h5></span>
             <p>
@@ -160,7 +171,8 @@
           </div>
         </div>
         <div class="col s12 m6 l3 process-col">
-          <i class="large material-icons center">receipt</i>
+          <!-- <i class="large material-icons center">receipt</i> -->
+          <img src="assets/cycle.png" width="100px" height="auto" />
           <div class="process-text flex-c-center">
             <span><h5 class="process-title">REVIEW</h5></span>
             <p>
@@ -176,5 +188,6 @@
     </footer>
 
     <script src="scripts/app.js"></script>
+    <script src="scripts/services.js"></script>
   </body>
 </html>
