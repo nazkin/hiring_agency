@@ -231,13 +231,31 @@
   margin-top: 10%;
   margin-bottom: 3rem;
 }
-.serv-row-2 {
+.serv-title-small {
+  width: 100%;
+  background: rgb(22, 105, 122);
+  background: linear-gradient(
+    175deg,
+    rgba(22, 105, 122, 1) 0%,
+    rgba(22, 15, 41, 1) 100%
+  );
+  font-size: 4rem;
+  margin-top: 1rem;
+  font-weight: 300;
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 .serv-title-2 {
   font-size: 3rem;
   font-weight: bold;
   color: #16697a;
   width: 90%;
+  text-align: center;
+  overflow-y: hidden;
 }
 .serv-cta {
   width: 100%;
