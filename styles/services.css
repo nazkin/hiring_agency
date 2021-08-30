@@ -32,20 +32,10 @@
   margin-bottom: 2rem;
 }
 .serv-blog-title h3 {
-  font-size: 2.8rem;
-  line-height: 4rem;
+  font-size: 3.8rem;
+  line-height: 4.5rem;
   font-weight: 400;
-  background: rgb(22, 105, 122);
-  background: linear-gradient(
-    4deg,
-    rgba(22, 105, 122, 1) 0%,
-    rgba(32, 36, 37, 1) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
+  color: #166879;
   overflow-y: hidden;
 }
 .serv-blog-title p {
@@ -92,7 +82,7 @@
   transform: rotate(45deg);
 }
 .business-process {
-  min-height: 37rem;
+  min-height: 47rem;
   background-color: whitesmoke;
   margin-left: 0px;
   margin-right: 0px;
@@ -103,10 +93,9 @@
   line-height: 16rem;
   font-weight: 600;
   width: 100%;
-  top: 0px;
-  left: 1%;
   color: #9ecad1;
   overflow-y: hidden;
+  margin-bottom: 6rem;
 }
 .business-process h4 {
   font-size: 6rem;
@@ -117,6 +106,7 @@
   color: #9ecad1;
   padding: 1rem;
   overflow-y: hidden;
+  margin-bottom: 5rem;
 }
 .process-row {
   height: 100%;
@@ -165,8 +155,12 @@
   font-size: 1.2rem;
 }
 .checklist-img {
-  height: 300px;
+  height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.serv-cta {
+  background-color: #160f29;
+  height: 25rem;
 }

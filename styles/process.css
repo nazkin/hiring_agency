@@ -1,0 +1,56 @@
+.process_header {
+  height: 25rem;
+  background-image: url(../assets/lights.jpg);
+  margin-top: 1rem;
+}
+.process_header_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.process_header_title h3 {
+  font-size: 3.5rem;
+  padding: 2rem;
+  line-height: 5rem;
+  font-weight: 300;
+  background: rgb(163, 160, 163);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(245, 240, 246, 0.9) 100%
+  );
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  overflow-y: hidden;
+}
+.process-body {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.process-blog {
+  padding: 1.5rem;
+}
+#process-summary {
+  margin-bottom: 7rem;
+}
+.process-blog h4 {
+  font-size: 3.8rem;
+  line-height: 4.5rem;
+  font-weight: 400;
+  color: #166879;
+  overflow-y: hidden;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.process-blog span {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #726e72;
+}

@@ -75,23 +75,13 @@
   background: white;
 }
 .mission-title {
-  background: rgb(22, 105, 122);
-  background: linear-gradient(
-    175deg,
-    rgba(22, 105, 122, 1) 0%,
-    rgba(22, 15, 41, 1) 100%
-  );
+  color: #166879;
   font-size: 4rem;
   margin-top: 1rem;
   font-weight: 300;
   text-align: center;
   line-height: 5rem;
   overflow-y: hidden;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
 }
 .mission-body {
   color: rgb(72, 75, 78);
