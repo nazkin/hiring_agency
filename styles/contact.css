@@ -26,17 +26,18 @@ blockquote {
 }
 .contact-desc {
   margin-top: 4rem;
-  padding: 2rem;
 }
 .contact-desc h1 {
   font-size: 16rem;
-  font-weight: 600;
+  font-weight: 500;
   position: absolute;
   width: 100%;
   height: 15rem;
   top: 1%;
   left: 1%;
-  color: #9ecad1;
+  color: #012965;
+
+  overflow-y: hidden;
 }
 .contact-map-info {
   margin-top: 5rem;
@@ -51,11 +52,12 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
 }
 .info span {
   font-size: 1.3rem;
-  color: #2a2d2e;
-  font-weight: 300;
+  color: #1d2020;
+  font-weight: 500;
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
@@ -64,9 +66,12 @@ blockquote {
 }
 .info-icon {
   font-size: 2rem;
+  background-color: #f5f1ed;
+  padding: 10px;
+  border-radius: 50%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  color: #16697a;
+  color: #024ab6;
 }
 
 .form-section {
@@ -76,7 +81,7 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #16697a;
+  background-color: #f5f1ed;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -89,4 +94,14 @@ blockquote {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+}
+
+.form-btn {
+  color: #024ab6;
+  border: 1px solid #024ab6;
+  background-color: transparent;
+}
+.form-btn:hover {
+  background-color: #024ab6;
+  color: #fff;
 }

@@ -93,7 +93,7 @@
   line-height: 16rem;
   font-weight: 600;
   width: 100%;
-  color: #9ecad1;
+  color: #53c8df;
   overflow-y: hidden;
   margin-bottom: 6rem;
 }
@@ -103,7 +103,7 @@
   font-weight: 400;
   width: 100%;
   text-align: center;
-  color: #9ecad1;
+  color: #53c8df;
   padding: 1rem;
   overflow-y: hidden;
   margin-bottom: 5rem;
@@ -137,17 +137,7 @@
   line-height: 2.5rem;
   overflow-y: hidden;
   text-align: center;
-  background: rgb(22, 105, 122);
-  background: linear-gradient(
-    4deg,
-    rgba(22, 105, 122, 1) 0%,
-    rgba(102, 172, 183, 1) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
+  color: #2a2d2e;
 }
 .process-text {
   padding: 1rem;

@@ -9,7 +9,7 @@
   align-items: center;
 }
 .process_header_title h3 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   padding: 2rem;
   line-height: 5rem;
   font-weight: 300;
@@ -39,7 +39,7 @@
   margin-bottom: 7rem;
 }
 .process-blog h4 {
-  font-size: 3.8rem;
+  font-size: 3rem;
   line-height: 4.5rem;
   font-weight: 400;
   color: #166879;
@@ -53,4 +53,42 @@
   padding-left: 15%;
   padding-right: 15%;
   color: #726e72;
+}
+.assisstant-img {
+  min-height: 40rem;
+}
+.hygenist-img {
+  min-height: 40rem;
+  margin: 0;
+  padding: 0;
+}
+.role-row-1 {
+  background-color: #166879;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.role-row-1 .l8 {
+  padding: 3rem;
+}
+.role-row-2 .l8 {
+  padding: 3rem;
+}
+.role-row-1 .col span {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 4rem;
+}
+.role-row-2 .l8 span {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 4rem;
+}
+.role-row-2 {
+  background-color: #fff;
+  color: #166879;
+}
+.roles-img {
+  width: 100%;
+  height: auto;
 }
