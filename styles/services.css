@@ -32,14 +32,14 @@
   margin-bottom: 2rem;
 }
 .serv-blog-title h3 {
-  font-size: 3.8rem;
-  line-height: 4.5rem;
+  font-size: 3rem;
+  line-height: 4rem;
   font-weight: 400;
-  color: #166879;
+  color: #012965;
   overflow-y: hidden;
 }
 .serv-blog-title p {
-  color: #2a2d2e;
+  color: #313c49;
   opacity: 0.8;
 }
 #serv-blog-section {
@@ -61,7 +61,7 @@
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   font-size: 1.2rem;
-  color: #2a2d2e;
+  color: #313c49;
   opacity: 1;
   font-family: "Merriweather", serif;
 }
@@ -77,13 +77,13 @@
   margin-left: 20px;
   border-width: 0 4px 4px 0;
   border-style: solid;
-  border-color: #16697a;
+  border-color: #012965;
   transform-origin: bottom left;
   transform: rotate(45deg);
 }
 .business-process {
   min-height: 47rem;
-  background-color: whitesmoke;
+  background-color: #f5f1ed;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -93,9 +93,10 @@
   line-height: 16rem;
   font-weight: 600;
   width: 100%;
-  color: #53c8df;
+  color: #024ab6;
   overflow-y: hidden;
   margin-bottom: 6rem;
+  opacity: 0.8;
 }
 .business-process h4 {
   font-size: 6rem;
@@ -103,10 +104,11 @@
   font-weight: 400;
   width: 100%;
   text-align: center;
-  color: #53c8df;
+  color: #024ab6;
   padding: 1rem;
   overflow-y: hidden;
   margin-bottom: 5rem;
+  opacity: 0.8;
 }
 .process-row {
   height: 100%;
@@ -137,12 +139,14 @@
   line-height: 2.5rem;
   overflow-y: hidden;
   text-align: center;
-  color: #2a2d2e;
+  color: #024ab6;
+  opacity: 1;
 }
 .process-text {
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
+  color: #1d2020;
 }
 .checklist-img {
   height: 30rem;

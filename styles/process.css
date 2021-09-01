@@ -42,7 +42,7 @@
   font-size: 3rem;
   line-height: 4.5rem;
   font-weight: 400;
-  color: #166879;
+  color: #012965;
   overflow-y: hidden;
   margin-bottom: 3rem;
   text-align: center;
@@ -52,7 +52,7 @@
   font-size: 1.3rem;
   padding-left: 15%;
   padding-right: 15%;
-  color: #726e72;
+  color: #313c49;
 }
 .assisstant-img {
   min-height: 40rem;
@@ -63,9 +63,9 @@
   padding: 0;
 }
 .role-row-1 {
-  background-color: #166879;
+  background-color: #024ab6;
   color: #fff;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
 }
 .role-row-1 .l8 {
@@ -85,8 +85,9 @@
   margin: 4rem;
 }
 .role-row-2 {
-  background-color: #fff;
-  color: #166879;
+  background-color: #f5f1ed;
+  color: #024ab6;
+  padding: 1rem;
 }
 .roles-img {
   width: 100%;
