@@ -10,7 +10,7 @@
   width: 100%;
   height: 48rem;
   max-height: 90vh;
-  padding: 6rem;
+  padding: 3rem;
   position: relative;
   box-shadow: 2px 2px 7px 0px rgb(189, 216, 243);
 }
@@ -28,8 +28,9 @@
   color: #010551;
   /* border: 2px solid #282b28; */
   border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
   font-size: 4rem; /* Responsive font size */
-  font-weight: 400;
   text-align: center; /* Center text */
   margin: 1rem;
   /* mix-blend-mode: screen; */
@@ -37,29 +38,60 @@
 .small-hero-text {
   color: #010551;
   text-align: center;
-  max-width: 100%;
+  font-weight: 600;
+  width: 100%;
+  letter-spacing: 2px;
   font-size: 2.5rem;
+  line-height: 3rem;
+  overflow-y: hidden;
+  margin-bottom: 6rem;
 }
 .hero-cta {
   margin-top: 2rem;
   width: 100%;
 }
 .cta-btn {
-  width: 20rem;
+  width: 25rem;
   height: 5.5rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: none;
-  color: #012965;
-  background-color: transparent;
-  border: 4px solid #012965;
-  font-weight: 300;
+  color: #fff;
+  background-color: #0d6dfd;
+  border: 3px solid #0d6dfd;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
+  /* align-self: flex-start; */
 }
 .cta-btn:hover {
-  background: #012965;
-  color: #f5f0f6;
+  opacity: 0.8;
+  color: #fff;
+  background-color: #0d6dfd;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.cta-btn-2 {
+  width: 25rem;
+  height: 5.5rem;
+  font-size: 2rem;
+  text-transform: none;
+  background: #01193d;
+  color: #fff;
+  border: 3px solid #01193d;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  /* align-self: flex-end; */
+}
+
+.cta-btn-2:hover {
+  opacity: 0.8;
+  color: #fff;
+  background-color: #01193d;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .mission-container {
   min-height: 60vh;
@@ -94,10 +126,9 @@
 
 .services-title {
   font-size: 15rem;
-  font-weight: 600;
+  font-weight: 400;
   position: absolute;
   width: 80%;
-  height: 11rem;
   top: 0;
   left: 0;
   color: #012965;

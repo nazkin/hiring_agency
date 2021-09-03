@@ -26,6 +26,11 @@ const observer = new IntersectionObserver((entries) => {
         entry.target.classList.add("animate__fadeInUp");
         return;
       }
+      if (entry.target.attributes[0].value === "serv-title-lg") {
+        // entry.target.classList.remove("animate__fadeOut");
+        entry.target.classList.add("animate__fadeInDown");
+        return;
+      }
       if (entry.target.attributes[0].value === "service-title") {
         // entry.target.classList.remove("animate__slideOutLeft");
         entry.target.classList.add("animate__fadeInLeft");
@@ -65,6 +70,7 @@ observer.observe(document.querySelector("#mission"));
 
 observer.observe(document.querySelector("#card1"));
 observer.observe(document.querySelector("#card2"));
+observer.observe(document.querySelector("#serv-title-lg"));
 observer.observe(document.querySelector("#service-title"));
 observer.observe(document.querySelector("#serv-title-small"));
 observer.observe(document.querySelector("#service-list"));

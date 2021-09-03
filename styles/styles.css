@@ -97,6 +97,14 @@ nav {
 .nav-menu {
   color: #160f29;
 }
+.flex-r-default {
+  display: flex;
+  flex-direction: row;
+}
+.flex-c-default {
+  display: flex;
+  flex-direction: column;
+}
 .flex-r-center {
   display: flex;
   flex-direction: row;
