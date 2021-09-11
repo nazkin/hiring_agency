@@ -1,15 +1,13 @@
-.process_header {
+.serv-header {
+  background-image: url(../assets/office.jpg);
+  background-position: 10% 55%;
+  background-repeat: no-repeat;
   height: 25rem;
-  background-image: url(../assets/lights.jpg);
-  margin-top: 1rem;
+  max-height: 50vh;
+  margin-top: 15px;
 }
-.process_header_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.process_header_title h3 {
-  font-size: 4rem;
+#serv-header-title {
+  font-size: 3.5rem;
   padding: 2rem;
   line-height: 5rem;
   font-weight: 300;
@@ -27,69 +25,136 @@
   -webkit-text-fill-color: transparent;
   overflow-y: hidden;
 }
-.process-body {
-  margin-top: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.serv-blog-title {
+  padding: 3rem;
+  min-height: 30rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.process-blog {
-  padding: 1.5rem;
-}
-#process-summary {
-  margin-bottom: 7rem;
-}
-.process-blog h4 {
+.serv-blog-title h3 {
   font-size: 3rem;
-  line-height: 4.5rem;
+  line-height: 4rem;
   font-weight: 400;
   color: #012965;
   overflow-y: hidden;
-  margin-bottom: 3rem;
-  text-align: center;
 }
-.process-blog span {
-  text-align: center;
-  font-size: 1.3rem;
-  padding-left: 15%;
-  padding-right: 15%;
+.serv-blog-title p {
   color: #313c49;
+  opacity: 0.8;
 }
-.assisstant-img {
-  min-height: 40rem;
+#serv-blog-section {
+  margin-top: 4rem;
 }
-.hygenist-img {
-  min-height: 40rem;
-  margin: 0;
-  padding: 0;
+#serv-blog-section .row {
+  min-height: 30rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background-color: #fff;
 }
-.role-row-1 {
-  background-color: #024ab6;
-  color: #fff;
-  padding: 1rem;
-  margin: 0;
+
+.serv-check-list li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 6.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #313c49;
+  opacity: 1;
+  font-family: "Merriweather", serif;
 }
-.role-row-1 .l8 {
-  padding: 3rem;
+
+.serv-check-list li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -20px;
+  width: 15px;
+  height: 38px;
+  margin-left: 20px;
+  border-width: 0 4px 4px 0;
+  border-style: solid;
+  border-color: #012965;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
 }
-.role-row-2 .l8 {
-  padding: 3rem;
-}
-.role-row-1 .col span {
-  font-size: 4rem;
-  font-weight: 300;
-  margin: 4rem;
-}
-.role-row-2 .l8 span {
-  font-size: 4rem;
-  font-weight: 300;
-  margin: 4rem;
-}
-.role-row-2 {
+.business-process {
+  min-height: 47rem;
   background-color: #f5f1ed;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.business-process h1 {
+  font-size: 16rem;
+  line-height: 16rem;
+  font-weight: 400;
+  width: 100%;
+  color: #012965;
+  overflow-y: hidden;
+  margin-bottom: 6rem;
+  opacity: 0.8;
+}
+.business-process h4 {
+  font-size: 6rem;
+  line-height: 7rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
   color: #024ab6;
   padding: 1rem;
+  overflow-y: hidden;
+  margin-bottom: 5rem;
+  opacity: 0.8;
 }
-.roles-img {
-  width: 100%;
-  height: auto;
+.process-row {
+  height: 100%;
+}
+.process-col {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.process-col i {
+  color: #135967;
+  background: rgb(22, 105, 122);
+  background: linear-gradient(
+    4deg,
+    rgba(22, 105, 122, 1) 0%,
+    rgba(32, 36, 37, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.process-title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  overflow-y: hidden;
+  text-align: center;
+  color: #024ab6;
+  opacity: 1;
+}
+.process-text {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #1d2020;
+}
+.checklist-img {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serv-cta {
+  background-color: #160f29;
+  height: 25rem;
 }

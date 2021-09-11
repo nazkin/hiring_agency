@@ -77,8 +77,6 @@
           <h1 class="animate__animated animate__fadeInDown">Contact</h1>
           <div class="contact-map-info">
             <div class="info animate__animated animate__fadeInLeft">
-              <i class="material-icons info-icon">location_on</i>
-              <span>534 Baltic St, Brooklyn, NY 11217 </span>
               <i class="material-icons info-icon">email</i>
               <span> myemail@email.com </span>
               <i class="material-icons info-icon">local_phone</i>
@@ -110,6 +108,15 @@
               <label for="phone">Phone</label>
             </div>
             <div class="input-field col s12">
+              <select class="blue darken-2" multiple>
+                <option value="" disabled selected>I am ...</option>
+                <option value="1">Business Owner</option>
+                <option value="2">Dental Assisstant</option>
+                <option value="3">Dental Hygenist</option>
+                <option value="4">Other</option>
+              </select>
+            </div>
+            <div class="input-field col s12">
               <textarea
                 id="message"
                 class="materialize-textarea"
@@ -117,16 +124,7 @@
               ></textarea>
               <label for="message">Message</label>
             </div>
-            <div class="input-field col s12">
-              <select>
-                <option value="" disabled selected>Select options below</option>
-                <option value="1">Business Owner</option>
-                <option value="2">Dental Assisstant</option>
-                <option value="3">Dental Hygenist</option>
-                <option value="4">Other</option>
-              </select>
-              <label>Select an option that best describes you?</label>
-            </div>
+
             <button
               class="btn waves-effect waves-light form-btn"
               type="submit"

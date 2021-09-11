@@ -6,7 +6,7 @@ h4,
 h5,
 h6 {
   overflow-x: hidden;
-  font-family: "Merriweather", serif;
+  font-family: "Lora", serif;
 }
 p,
 span,
@@ -25,9 +25,6 @@ footer {
 }
 nav {
   background-color: rgba(255, 255, 255, 0.9) !important;
-  z-index: 10;
-  position: absolute;
-  top: 0;
   /* border-bottom: 2px solid silver; */
   box-shadow: 2px 2px 3px 0px #160f298e;
   min-height: 80px;
@@ -178,4 +175,97 @@ nav {
 }
 .card-content {
   padding: 0;
+}
+
+/* form */
+form h3 {
+  overflow-y: hidden;
+  text-align: center;
+  color: #405063;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.form-section {
+  min-height: 100vh;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f1ed;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form-section .row {
+  height: 80%;
+  width: 80%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.form-section h3 {
+  overflow-y: hidden;
+  text-align: center;
+  color: #405063;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.form-btn {
+  font-family: "Lora", serif;
+  color: #024ab6;
+  border: 1px solid #024ab6;
+  background-color: transparent;
+}
+.form-btn:hover {
+  background-color: #024ab6;
+  color: #fff;
+}
+
+.input-field textarea {
+  border-bottom: 1px solid silver;
+  box-shadow: 0 1px 0 0 silver;
+}
+.input-field input {
+  border-bottom: 1px solid silver;
+  box-shadow: 0 1px 0 0 silver;
+}
+.input-field input + label {
+  color: #1d2020 !important;
+}
+.input-field textarea + label {
+  color: #1d2020 !important;
+}
+
+.input-field input:focus {
+  color: #1d2020 !important;
+  border-bottom: 1px solid #024ab6 !important;
+  box-shadow: 0 1px 0 0 #024ab6 !important;
+}
+.input-field textarea:focus {
+  color: #1d2020 !important;
+  border-bottom: 1px solid #024ab6 !important;
+  box-shadow: 0 1px 0 0 #024ab6 !important;
+}
+
+.input-field input:focus + label {
+  color: #024ab6 !important;
+}
+.input-field textarea:focus + label {
+  color: #024ab6 !important;
+}
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid silver;
+  box-shadow: 0 1px 0 0 silver;
+}
+.input-field input[type="email"].valid {
+  border-bottom: 1px solid silver;
+  box-shadow: 0 1px 0 0 silver;
+}
+.input-field textarea.valid {
+  border-bottom: 1px solid silver;
+  box-shadow: 0 1px 0 0 silver;
 }

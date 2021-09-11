@@ -10,10 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
@@ -22,7 +18,6 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -31,9 +26,14 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/process.css" />
+
     <title>Hiring Agency</title>
   </head>
   <body>
@@ -72,49 +72,123 @@
       <li class="active"><a href="process.html">Process</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <section class="process_header">
-      <div class="overlay process_header_title">
-        <h3>Successful Careers in Dentistry</h3>
+    <section class="serv-header animate__animated animate__fadeInDown">
+      <div class="overlay flex-c-center">
+        <h2 id="serv-header-title">
+          Premium Staffing Solutions for Dental Offices
+        </h2>
       </div>
     </section>
-    <section class="process-body">
-      <div id="process-summary" class="row">
-        <div class="col s12 flex-c-center process-blog">
-          <h4>Focused on Careers in Dentistry</h4>
-          <span
-            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-            labore quaerat magnam quia perferendis ipsam illum sapiente unde sed
-            consequatur at non eligendi beatae, iste nobis accusamus, officiis
-            maxime omnis?</span
-          >
+    <section id="serv-blog-section">
+      <div class="row">
+        <div class="col s12 serv-blog-title">
+          <h3 class="animate__animated animate__fadeInLeft">
+            How We Solve Your Staffing Issues
+          </h3>
+          <p class="flow-text animate__animated animate__fadeInRight">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur, sapiente repudiandae. Blanditiis praesentium deserunt
+            illum vero quibusdam ratione, tempore officia porro labore quisquam
+            est totam sunt pariatur neque odit aliquam, numquam non. Sit
+            adipisci fuga ab maiores placeat distinctio, libero ut tempora nemo
+            officia quae doloribus incidunt vero illo error doloremque
+            voluptatibus magnam laudantium tenetur minima, minus aspernatur? Ex,
+            aperiam cupiditate recusandae nesciunt quia blanditiis a animi
+            similique quis voluptatibus et cumque, odio perspiciatis labore
+            possimus est accusamus. Vitae, vel.
+          </p>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="row role-row-1">
-        <div class="col s12 m12 l4 assisstant-img">
+        <div class="col s12 m12 l7">
+          <ul id="serv-checklist" class="serv-check-list animate__animated">
+            <li>
+              <p class="flow-text">
+                Finding great talent is possible. We provide best-in-class
+                talent at unmatched speed with unparalleled collaboration.
+              </p>
+            </li>
+            <li>
+              <p class="flow-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
+                eos. Ullam perferendis quasi fuga suscipit nemo voluptatibus
+                dolorem? Magni, fuga.
+              </p>
+            </li>
+            <li>
+              <p class="flow-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                voluptate nemo est, dolores reiciendis quas voluptates
+                accusantium.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col s12 m12 l4 offset-l1 flex-c-center checklist-img">
           <img
-            class="responsive-img roles-img"
-            src="assets/assisstant_img.jpg"
+            id="checklist-img"
+            class="animate__animated"
+            src="assets/time_saver.jpg"
+            height="320px"
+            width="auto"
           />
         </div>
-        <div class="col s12 m12 l8">
-          <span>Dental Assisstants</span>
-        </div>
       </div>
-      <div class="row role-row-2">
-        <div class="col s12 m12 l8">
-          <span>Dental Hygenist</span>
+    </section>
+    <section id="business_process" class="business-process animate__animated">
+      <h1 class="hide-on-med-and-down">Process</h1>
+      <h4 class="show-on-medium hide-on-med-and-up">Process</h4>
+      <div class="row process-row">
+        <div class="col s12 m6 l3 process-col">
+          <!-- <i class="large material-icons center">library_books</i> -->
+          <img src="assets/calendar.png" width="100px" height="auto" />
+          <div class="process-text flex-c-center">
+            <span><h5 class="process-title">IDENTIFY</h5></span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              excepturi.
+            </p>
+          </div>
         </div>
-        <div class="col s12 m12 l4 hygenist-img">
-          <img class="responsive-img roles-img" src="assets/hygenist_img.jpg" />
+        <div class="col s12 m6 l3 process-col">
+          <!-- <i class="large material-icons center">thumbs_up_down</i> -->
+          <img src="assets/file.png" width="100px" height="auto" />
+          <div class="process-text flex-c-center">
+            <span><h5 class="process-title">ASSESS</h5></span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              excepturi.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 process-col">
+          <!-- <i class="large material-icons center">assistant_photo</i> -->
+          <img src="assets/complete.png" width="100px" height="auto" />
+          <div class="process-text flex-c-center">
+            <span><h5 class="process-title">DELIVER</h5></span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              excepturi.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 process-col">
+          <!-- <i class="large material-icons center">receipt</i> -->
+          <img src="assets/cycle.png" width="100px" height="auto" />
+          <div class="process-text flex-c-center">
+            <span><h5 class="process-title">REVIEW</h5></span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              excepturi.
+            </p>
+          </div>
         </div>
       </div>
     </section>
+    <section class="serv-cta"></section>
     <footer class="flex-c-center">
       <p>© Copyright 2021, All rights reserved</p>
     </footer>
 
     <script src="scripts/app.js"></script>
+    <script src="scripts/process.js"></script>
   </body>
 </html>

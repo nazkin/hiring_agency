@@ -16,24 +16,19 @@
 }
 .hero-texts {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 1.5rem;
+  padding: 1rem;
   overflow: hidden;
 }
 .hero-text {
   background-color: transparent;
   color: #010551;
-  /* border: 2px solid #282b28; */
-  border-radius: 2px;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 4rem; /* Responsive font size */
+  font-size: 3rem; /* Responsive font size */
   text-align: center; /* Center text */
-  margin: 1rem;
-  /* mix-blend-mode: screen; */
 }
 .small-hero-text {
   color: #010551;
@@ -46,9 +41,11 @@
   overflow-y: hidden;
   margin-bottom: 6rem;
 }
+
 .hero-cta {
   margin-top: 2rem;
   width: 100%;
+  align-self: flex-end;
 }
 .cta-btn {
   width: 25rem;
@@ -243,6 +240,7 @@
 }
 .serv-title-2 {
   font-size: 3rem;
+  line-height: 4rem;
   font-weight: bold;
   color: #024ab6;
   width: 90%;
