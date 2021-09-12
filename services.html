@@ -72,98 +72,57 @@
       <li><a href="process.html">Process</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <div id="modal1" class="modal">
-      <div class="modal-content">
-        <div class="col s12 m12 l6 form-section">
-          <form class="row animate__animated animate__fadeInRight">
-            <h3>Apply To Hire a Dental Hygenist</h3>
-            <div class="input-field col s12">
-              <input id="Full_name" type="text" class="validate" />
-              <label for="Full_name">Full Name</label>
-            </div>
-            <div class="input-field col s12">
-              <input id="email" type="email" class="validate" />
-              <label for="email">Email</label>
-            </div>
-            <div class="input-field col s12">
-              <input id="phone" type="text" class="validate" />
-              <label for="phone">Phone</label>
-            </div>
-            <div class="input-field col s12">
-              <textarea
-                id="message"
-                class="materialize-textarea"
-                data-length="450"
-              ></textarea>
-              <label for="message">Message</label>
-            </div>
-            <div class="input-field col s12">
-              <select>
-                <option value="" disabled selected>Select options below</option>
-                <option value="1">Business Owner</option>
-                <option value="2">Dental Assisstant</option>
-                <option value="3">Dental Hygenist</option>
-                <option value="4">Other</option>
-              </select>
-              <label>Select an option that best describes you?</label>
-            </div>
-            <button
-              class="btn waves-effect waves-light form-btn"
-              type="submit"
-              name="action"
-            >
-              Submit
-              <i class="material-icons right">send</i>
-            </button>
-          </form>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-          >Agree</a
-        >
-      </div>
-      </div>
-
     </div>
-    <div id="modal2" class="modal">
+    <div id="modal1" class="modal">
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Close</a
+        >
+      </div>
       <div class="modal-content">
-        
-        <div class="col s12 m12 l6 form-section">
-          <form class="row animate__animated animate__fadeInRight">
-            <h3>Apply To Hire a Dental Assisstant</h3>
-
+        <h3>Apply To Hire Dental Help</h3>
+          <form class="row modal-form">
             <div class="input-field col s12">
-              <input id="Full_name" type="text" class="validate" />
-              <label for="Full_name">Full Name</label>
+              <input id="contact_name" type="text" placeholder="" class="validate" />
+              <label for="contact_name">Name of Dental Practice*</label>
             </div>
             <div class="input-field col s12">
-              <input id="email" type="email" class="validate" />
+              <input id="contact_name" type="text" placeholder="" class="validate" />
+              <label for="contact_name">Name*</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="email" type="email" placeholder="" class="validate" />
               <label for="email">Email</label>
             </div>
             <div class="input-field col s12">
-              <input id="phone" type="text" class="validate" />
-              <label for="phone">Phone</label>
+              <input id="phone" type="tel" placeholder="" class="validate" />
+              <label for="phone">Phone*</label>
             </div>
             <div class="input-field col s12">
-              <textarea
-                id="message"
-                class="materialize-textarea"
-                data-length="450"
-              ></textarea>
-              <label for="message">Message</label>
-            </div>
-            <div class="input-field col s12">
-              <select>
-                <option value="" disabled selected>Select options below</option>
-                <option value="1">Business Owner</option>
-                <option value="2">Dental Assisstant</option>
-                <option value="3">Dental Hygenist</option>
-                <option value="4">Other</option>
+              <select multiple>
+                <option value="0" disabled selected></option>
+                <option value="1">Dental Assisstant</option>
+                <option value="2">Dental Hygenist</option>
+                <option value="3">Other</option>
               </select>
-              <label>Select an option that best describes you?</label>
+              <label class="form-select-label">I am looking to hire (Select all that apply)*</label>
             </div>
-            <button
+            <div class="col s12 form-radio">
+              <label>
+                <input name="group1" type="radio"/>
+                <span>Full-Time</span>
+              </label>
+              <label>
+                <input name="group1" type="radio" />
+                <span>Part-Time</span>
+              </label>
+              <label>
+                <input name="group1" type="radio" />
+                <span>Both</span>
+              </label>
+            </div>
+            <div class="col s12 flex-c-center">
+              <button
               class="btn waves-effect waves-light form-btn"
               type="submit"
               name="action"
@@ -171,14 +130,12 @@
               Submit
               <i class="material-icons right">send</i>
             </button>
+            </div>
+
+
           </form>
-        </div>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-          >Agree</a
-        >
-      </div>
+
       </div>
 
     </div>
@@ -197,7 +154,7 @@
           <span id="service-text-1" class="animate__animated">
             <h5>Our Goal</h5>
             <span class="flex-c-center">
-              <img src="assets/handshake.png" height="126px" width="126px" />
+              <img src="assets/handshake.png" height="156px" width="156px" />
             </span>
 
             <p class="flow-text">
@@ -209,7 +166,7 @@
           <span id="service-text-2" class="animate__animated">
             <h5>Our Mission</h5>
             <span class="flex-c-center">
-              <img src="assets/user.png" height="126px" width="126px" />
+              <img src="assets/user.png" height="156px" width="156px" />
             </span>
 
             <p class="flow-text">
@@ -219,11 +176,11 @@
         </div>
       </div>
       <div id="service-areas" class="row animate__animated">
-        <div id="area-title" class="col l5 areas-title-col animate__animated">
-          <span>NOW</span>
-          <span>SERVING</span>
+        <div id="area-title" class="col l6 areas-title-col animate__animated">
+          <span>NOW SERVING</span>
+          <span>AREAS OF</span>
         </div>
-        <div id="area-cities" class="col l7 areas-cities-col animate__animated">
+        <div id="area-cities" class="col l6 areas-cities-col animate__animated">
           <span>Bronx</span>
           <span>Queens</span>
           <span>Brooklyn</span>
@@ -248,7 +205,7 @@
           <a
             data-target="modal1"
             class="
-              waves-effect waves-light
+              waves-effect
               btn-large
               hygenist-btn
               modal-trigger
@@ -280,7 +237,7 @@
             corrupti temporibus illo esse adipisci optio!
           </p>
           <a
-            data-target="modal2"
+            data-target="modal1"
             class="
               waves-effect waves-light
               btn-large
