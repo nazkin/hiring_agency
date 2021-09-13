@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function () {
+  var parallax = document.querySelectorAll(".parallax");
+  var parallaxInstance = M.Parallax.init(parallax, options);
+});
+
 // Intersection Observers
 const observer = new IntersectionObserver((entries) => {
   // Loop over the entries

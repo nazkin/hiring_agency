@@ -3,52 +3,71 @@ div > p {
   margin: 4rem;
   color: inherit;
 }
+.serv-header {
+  background-image: url(../assets/office.jpg);
+  background-position: 10% 55%;
+  background-repeat: no-repeat;
+  height: 30rem;
+  max-height: 50vh;
+  margin-top: 15px;
+}
 
-.process_header {
-  height: 25rem;
-  background-image: url(../assets/lights.jpg);
-  margin-top: 1rem;
+.services-title {
+  font-size: 15rem;
+  font-weight: 600;
+  margin: 5rem;
+  color: #51657b;
 }
-.process_header_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.serv-cities-container {
+  width: 100%;
+  height: 40rem;
+  background: #033670ab;
 }
-.process_header_title h3 {
-  font-size: 4rem;
-  padding: 2rem;
-  line-height: 5rem;
+.parallax {
+  /* The image used */
+  background-image: url("../assets/citygrey.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.serv-cities {
+  color: #f5f1ed;
   font-weight: 300;
-  background: rgb(163, 160, 163);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.9) 0%,
-    rgba(245, 240, 246, 0.9) 100%
-  );
+  font-size: 3rem;
   text-align: center;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  line-height: 4rem;
   overflow-y: hidden;
 }
 .process-body {
   padding-top: 5rem;
-  margin-bottom: 0rem;
+  margin: 0rem;
   min-height: 95vh;
-  background: #fff;
+  padding: 0;
+  background-image: url(../assets/background.jpg);
+  width: 100vw;
 }
 
 .process-blog {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#process-summary {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#process-summary {
-  margin-bottom: 5rem;
 }
 #process-summary h4 {
   font-size: 6rem;
@@ -61,58 +80,88 @@ div > p {
   font-family: "Lora", serif;
   text-transform: uppercase;
 }
-.process-blog span:first-child {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  background-color: #fff;
-}
+
 #service-text-1 {
-  background: #fff;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
 }
 #service-text-2 {
-  background: #fff;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #003b8f;
+  padding: 1rem;
 }
-
+@media screen and (max-width: 980px) {
+  #service-text-1 {
+    flex-direction: column;
+  }
+  #service-text-2 {
+    flex-direction: column;
+  }
+  .services-title {
+    font-size: 10rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .services-title {
+    font-size: 6rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
 #service-text-1 p {
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #202831;
+  color: #003b8f;
   font-weight: 300;
   font-size: 2rem;
 }
 #service-text-1 h5 {
-  font-size: 2.5rem;
-  background: #fff;
+  font-size: 5rem;
   padding: 1rem;
   margin: 0px;
-  color: #202831;
-  line-height: 3rem;
+  color: #0044a3;
+  line-height: 7rem;
   overflow-y: hidden;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 600;
 }
 #service-text-2 p {
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #202831;
+  color: #f5f1ed;
   font-weight: 300;
   font-size: 2rem;
 }
 #service-text-2 h5 {
-  line-height: 3rem;
-  font-size: 2.5rem;
-  background: #fff;
+  line-height: 7rem;
+  font-size: 5rem;
   padding: 1rem;
   margin: 0px;
-  color: #202831;
+  color: #f5f1ed;
   overflow-y: hidden;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .process-blog span p {

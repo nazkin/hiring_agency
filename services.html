@@ -42,11 +42,11 @@
     >
       <nav>
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo center">
+          <a href="#!" class="brand-logo right">
             <span class="logo-txt"
-              >STAFFING
+              >
               <img src="assets/logo.png" height="80px" width="auto" />
-              AGENCY</span
+              </span
             >
           </a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"
@@ -58,6 +58,7 @@
             </li>
             <li class="active"><a href="services.html">Services</a></li>
             <li><a href="process.html">Process</a></li>
+            <li><a href="applications.html">Applications</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
@@ -70,6 +71,7 @@
       <li><a href="index.html">Home</a></li>
       <li class="active"><a href="services.html">Services</a></li>
       <li><a href="process.html">Process</a></li>
+      <li><a href="applications.html">Applications</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
     </div>
@@ -107,6 +109,20 @@
               </select>
               <label class="form-select-label">I am looking to hire (Select all that apply)*</label>
             </div>
+            <div class="input-field col s12">
+                <label for="date">Preferred starting date</label> 
+                <input id="date" type="date" value="" placeholder=""/>
+            </div>
+            <div class="input-field col s12">
+              <select multiple>
+                <option value="0" disabled selected></option>
+                <option value="1">1 - 15 (hrs/week)</option>
+                <option value="2">15 - 25 (hrs/week)</option>
+                <option value="3">25 - 35 (hrs/week)</option>
+                <option value="3">35+ (hrs/week)</option>
+              </select>
+              <label class="form-select-label">How many hours do you need filled in ?</label>
+            </div>
             <div class="col s12 form-radio">
               <label>
                 <input name="group1" type="radio"/>
@@ -121,6 +137,7 @@
                 <span>Both</span>
               </label>
             </div>
+
             <div class="col s12 flex-c-center">
               <button
               class="btn waves-effect waves-light form-btn"
@@ -139,43 +156,47 @@
       </div>
 
     </div>
-    <!-- <section class="process_header animate__animated animate__fadeInDown">
-      <div class="overlay process_header_title">
-        <h3>More About Our Services</h3>
+    <!-- <section class="serv-header animate__animated animate__fadeInDown">
+      <div class="overlay flex-c-center">
+        <h2 id="serv-header-title">
+          At KT Staffing Agency
+        </h2>
       </div>
     </section> -->
-
     <section class="process-body">
       <div id="process-summary" class="row">
-        <h4 class="animate__animated animate__fadeInUpBig">
+        <span
+        id="serv-title-lg"
+        class="services-title animate__animated"
+        >SERVICES</span>
+        <!-- <h4 class="animate__animated animate__fadeInUpBig">
           At KT Staffing Agency
-        </h4>
-        <div class="col m6 process-blog">
+        </h4> -->
+        <div class="col s12 process-blog">
           <span id="service-text-1" class="animate__animated">
-            <h5>Our Goal</h5>
-            <span class="flex-c-center">
-              <img src="assets/handshake.png" height="156px" width="156px" />
-            </span>
 
+            <!-- <span class="flex-c-center">
+              <img src="assets/handshake.png" height="156px" width="156px" />
+            </span> -->
+            <h5>Our Goal</h5>
             <p class="flow-text">
               To successfully develop long-term, professional relationships
             </p>
           </span>
         </div>
-        <div class="col m6 process-blog">
+        <div class="col s12 process-blog">
           <span id="service-text-2" class="animate__animated">
-            <h5>Our Mission</h5>
-            <span class="flex-c-center">
+            <!-- <span class="flex-c-center">
               <img src="assets/user.png" height="156px" width="156px" />
-            </span>
-
+            </span> -->
+            <h5>Our Mission</h5>
             <p class="flow-text">
               To find the right candidate for your dental practice
             </p>
           </span>
         </div>
       </div>
-      <div id="service-areas" class="row animate__animated">
+      <!-- <div id="service-areas" class="row animate__animated">
         <div id="area-title" class="col l6 areas-title-col animate__animated">
           <span>NOW SERVING</span>
           <span>AREAS OF</span>
@@ -186,7 +207,17 @@
           <span>Brooklyn</span>
           <span>Manhattan</span>
         </div>
-      </div>
+      </div> -->
+        <div class="parallax ">
+          <div class="serv-cities-container flex-c-center">
+            <h1 class="serv-cities animate__animated">
+              Now Servicing the Areas of
+            </h1>
+            <h1 class="serv-cities animate__animated">
+              Bronx, Queens, Brooklyn & Manhattan
+            </h1>
+          </div>
+        </div>
     </section>
     <section class="services-section">
       <div id="role-row-2" class="row role-row-2 animate__animated">
