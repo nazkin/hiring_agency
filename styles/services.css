@@ -3,20 +3,30 @@ div > p {
   margin: 4rem;
   color: inherit;
 }
-.serv-header {
-  background-image: url(../assets/office.jpg);
-  background-position: 10% 55%;
+.service-header {
+  background-image: url(../assets/background.jpg);
+  background-position: 10% 0%;
   background-repeat: no-repeat;
+  min-height: 50vh;
   height: 30rem;
-  max-height: 50vh;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.service-header h3 {
+  overflow-y: hidden;
+  align-items: center;
+}
 .services-title {
-  font-size: 15rem;
-  font-weight: 600;
-  margin: 5rem;
-  color: #51657b;
+  font-size: 10rem;
+  font-weight: 400;
+  line-height: 11rem;
+  text-align: center;
+  width: 100%;
+
+  color: #1d2020;
 }
 .serv-cities-container {
   width: 100%;
