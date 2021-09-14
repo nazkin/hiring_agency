@@ -96,31 +96,38 @@
         <div class="col s12 m12 l6 form-section">
           <form class="row animate__animated animate__fadeInRight">
             <div class="input-field col s12">
-              <input id="Full_name" type="text" class="validate" />
+              <input
+                id="Full_name"
+                type="text"
+                placeholder=""
+                class="validate"
+              />
               <label for="Full_name">Full Name</label>
             </div>
             <div class="input-field col s12">
-              <input id="email" type="email" class="validate" />
+              <input id="email" type="email" placeholder="" class="validate" />
               <label for="email">Email</label>
             </div>
             <div class="input-field col s12">
-              <input id="phone" type="text" class="validate" />
+              <input id="phone" type="text" placeholder="" class="validate" />
               <label for="phone">Phone</label>
             </div>
             <div class="input-field col s12">
-              <select class="blue darken-2" multiple>
-                <option value="" disabled selected>I am ...</option>
+              <select multiple>
+                <option value="" disabled selected></option>
                 <option value="1">Business Owner</option>
                 <option value="2">Dental Assisstant</option>
                 <option value="3">Dental Hygenist</option>
                 <option value="4">Other</option>
               </select>
+              <label class="form-select-label">I am a </label>
             </div>
             <div class="input-field col s12">
               <textarea
                 id="message"
                 class="materialize-textarea"
                 data-length="450"
+                placeholder=""
               ></textarea>
               <label for="message">Message</label>
             </div>

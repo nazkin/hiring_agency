@@ -18,15 +18,27 @@ div > p {
 .service-header h3 {
   overflow-y: hidden;
   align-items: center;
+  color: #012965a8;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.7rem;
 }
 .services-title {
-  font-size: 10rem;
-  font-weight: 400;
-  line-height: 11rem;
+  font-size: 7rem;
+  font-weight: 300;
+  line-height: 8rem;
+  text-transform: uppercase;
   text-align: center;
   width: 100%;
-
-  color: #1d2020;
+  font-style: normal;
+  color: #012965a8;
+}
+#brand-span {
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #012965a8;
+  border-top: 2px solid #012965a8;
+  color: #012965;
+  padding: 5px;
 }
 .serv-cities-container {
   width: 100%;
@@ -56,7 +68,7 @@ div > p {
   background-size: cover;
 }
 .serv-cities {
-  color: #f5f1ed;
+  color: #a9b7c7;
   font-weight: 300;
   font-size: 3rem;
   text-align: center;
@@ -64,12 +76,20 @@ div > p {
   line-height: 4rem;
   overflow-y: hidden;
 }
+.serv-cities-list {
+  color: #fff;
+  font-weight: 300;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 5rem;
+  overflow-y: hidden;
+}
 .process-body {
   padding-top: 5rem;
   margin: 0rem;
   min-height: 95vh;
   padding: 0;
-  background-image: url(../assets/background.jpg);
   width: 100vw;
 }
 
@@ -79,37 +99,28 @@ div > p {
   justify-content: center;
   align-items: center;
 }
-#process-summary h4 {
-  font-size: 6rem;
-  line-height: 8rem;
-  font-weight: 300;
-  color: #012965;
-  overflow-y: hidden;
-  margin-bottom: 10%;
-  text-align: center;
-  font-family: "Lora", serif;
-  text-transform: uppercase;
-}
 
 #service-text-1 {
   width: 100%;
-  min-width: 100vw;
   min-height: 60vh;
+  padding: 0%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: #fff;
 }
 #service-text-2 {
   width: 100%;
-  min-width: 100vw;
+  padding: 0%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   min-height: 60vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: #003b8f;
 }
 @media screen and (max-width: 980px) {
   #service-text-1 {
@@ -138,42 +149,44 @@ div > p {
   padding-right: 4rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #003b8f;
+  color: #012965;
   font-weight: 300;
-  font-size: 2rem;
+
   max-width: 80%;
+  text-align: center;
 }
 #service-text-1 h5 {
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 1rem;
   margin: 0px;
-  color: #0044a3;
+  color: #012965;
   line-height: 7rem;
   overflow-y: hidden;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
 }
 #service-text-2 p {
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #f5f1ed;
+  color: #012965;
   font-weight: 300;
-  font-size: 2rem;
+
   max-width: 80%;
+  text-align: center;
 }
 #service-text-2 h5 {
   line-height: 7rem;
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 1rem;
   margin: 0px;
-  color: #f5f1ed;
+  color: #012965;
   overflow-y: hidden;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .process-blog span p {
@@ -249,10 +262,15 @@ div > p {
 }
 .role-row-1 {
   background: #f5f1ed;
-
   color: #0044a3;
   padding: 1rem;
   margin: 0;
+}
+.role-row-2 {
+  background: rgb(255, 255, 255);
+  color: #03173a;
+  padding: 1rem;
+  margin: 0px;
 }
 .role-row-1 .l8 {
   padding: 3rem;
@@ -264,6 +282,12 @@ div > p {
   font-size: 4rem;
   font-weight: 400;
   margin: 4rem;
+}
+.services-paragraph {
+  font-size: 20px;
+  opacity: 0.8;
+  text-align: center;
+  font-weight: 300;
 }
 .assistants-btn {
   margin: 4rem;
@@ -295,12 +319,7 @@ div > p {
   font-weight: 300;
   margin: 4rem;
 }
-.role-row-2 {
-  background: rgb(255, 255, 255);
-  color: #03173a;
-  padding: 1rem;
-  margin: 0px;
-}
+
 .roles-img {
   width: 100%;
   height: auto;

@@ -228,6 +228,10 @@ form h3 {
   background-color: #03173a;
   color: #fff;
 }
+.input-select select:focus {
+  border-bottom: 1px solid #03173a !important;
+  box-shadow: 0 1px 0 0 #03173a !important;
+}
 .input-field label {
   color: #1d2020 !important;
 }
@@ -235,14 +239,18 @@ form h3 {
   border-bottom: 1px solid silver;
   box-shadow: 0 1px 0 0 silver;
 }
+.input-field textarea:focus {
+  border-bottom: 1px solid #03173a !important;
+  box-shadow: 0 1px 0 0 #03173a !important;
+}
 .input-field input {
   border-bottom: 1px solid silver;
   box-shadow: 0 1px 0 0 silver;
   color: silver;
 }
 .input-field input:focus {
-  border-bottom: 1px solid silver !important;
-  box-shadow: 0 1px 0 0 silver !important;
+  border-bottom: 1px solid #03173a !important;
+  box-shadow: 0 1px 0 0 #03173a !important;
   color: #1d2020 !important;
 }
 
@@ -252,39 +260,40 @@ form h3 {
 .input-field textarea + label {
   color: #1d2020 !important;
 }
+.form-select-label {
+  color: #1d2020 !important;
+}
 .input-field input[type="tel"].focus {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
+  border-bottom: 1px solid #03173a;
+  box-shadow: 0 1px 0 0 #03173a;
 }
 .input-field input[type="tel"].valid {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
+  border-bottom: 1px solid #03173a;
+  box-shadow: 0 1px 0 0 #03173a;
 }
 .input-field input[type="text"].focus {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
+  border-bottom: 1px solid #03173a;
+  box-shadow: 0 1px 0 0 #03173a;
 }
 
 .input-field input[type="text"].valid {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
+  border-bottom: 1px solid #03173a;
+  box-shadow: 0 1px 0 0 #03173a;
 }
 .input-field input[type="email"].focus {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
+  border-bottom: 1px solid #03173a;
+  box-shadow: 0 1px 0 0 #03173a;
 }
 .input-field input[type="email"].valid {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
+  border-bottom: 1px solid #03173a;
+  box-shadow: 0 1px 0 0 #03173a;
 }
 
 .input-field textarea.valid {
   border-bottom: 1px solid silver;
   box-shadow: 0 1px 0 0 silver;
 }
-.form-select-label {
-  color: #1d2020 !important;
-}
+
 .form-radio {
   height: 5rem;
   display: flex;
