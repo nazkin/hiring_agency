@@ -263,25 +263,25 @@ div > p {
 .role-row-1 {
   background: #f5f1ed;
   color: #0044a3;
-  padding: 1rem;
-  margin: 0;
+  margin: 0px;
+  padding: 2%;
 }
 .role-row-2 {
   background: rgb(255, 255, 255);
   color: #03173a;
-  padding: 1rem;
   margin: 0px;
+  padding: 2%;
 }
-.role-row-1 .l8 {
-  padding: 3rem;
-}
-.role-row-2 .l8 {
-  padding: 3rem;
-}
-.role-row-1 .col span {
+
+.role-row-1 .l8 span {
   font-size: 4rem;
   font-weight: 400;
-  margin: 4rem;
+  margin: 1rem;
+}
+.role-row-2 .l8 span {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 1rem;
 }
 .services-paragraph {
   font-size: 20px;
@@ -313,11 +313,6 @@ div > p {
   color: #f5f1ed;
   font-weight: 600;
   opacity: 0.8;
-}
-.role-row-2 .l8 span {
-  font-size: 4rem;
-  font-weight: 300;
-  margin: 4rem;
 }
 
 .roles-img {
