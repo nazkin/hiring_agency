@@ -106,9 +106,26 @@
   overflow-y: hidden;
 }
 .about-cta-section {
-  padding: 4rem;
+  padding: 5rem;
   background-color: #f5f1ed;
+  min-height: 45rem;
   margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.about-cta-section p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #202832;
+  text-align: center;
+  padding: 1rem;
+}
+.about-cta-section span {
+  color: #012965;
+  font-size: 3rem;
+  font-weight: 300;
 }
 .about-cta-btn {
   width: 25rem;
@@ -130,4 +147,11 @@
   color: #fff;
   background-color: #012965;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.gears-img {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 20%;
+  height: auto;
 }
