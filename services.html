@@ -57,7 +57,7 @@
               <a href="index.html">Home</a>
             </li>
             <li class="active"><a href="services.html">Services</a></li>
-            <li><a href="process.html">Process</a></li>
+            <!-- <li><a href="process.html">Process</a></li> -->
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -70,7 +70,7 @@
       </li>
       <li><a href="index.html">Home</a></li>
       <li class="active"><a href="services.html">Services</a></li>
-      <li><a href="process.html">Process</a></li>
+      <!-- <li><a href="process.html">Process</a></li> -->
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -84,34 +84,35 @@
       <div class="modal-content">
         <h3>Apply To Hire Dental Help</h3>
           <form class="row modal-form">
+            <p id="err" class="form-err">You missed a mandatory field</p>
             <div class="input-field col s12">
-              <input id="contact_name" type="text" placeholder="" class="validate" />
-              <label for="contact_name">Name of Dental Practice*</label>
+              <input id="business_name" type="text" placeholder="" class="validate" />
+              <label for="business_name">Name of Dental Practice*</label>
             </div>
             <div class="input-field col s12">
               <input id="contact_name" type="text" placeholder="" class="validate" />
-              <label for="contact_name">Name*</label>
+              <label for="contact_name">Name of Contact*</label>
             </div>
             <div class="input-field col s12">
-              <input id="email" type="email" placeholder="" class="validate" />
-              <label for="email">Email</label>
+              <input id="contact_email" type="email" placeholder="" class="validate" />
+              <label for="contact_email">Email</label>
             </div>
             <div class="input-field col s12">
-              <input id="phone" type="tel" placeholder="" class="validate" />
-              <label for="phone">Phone*</label>
+              <input id="contact_phone" type="tel" placeholder="" class="validate" />
+              <label for="contact_phone">Phone*</label>
             </div>
             <div class="input-field col s12">
+              <label for="date">Preferred starting date</label> 
+              <input id="date" type="date" value="" placeholder=""/>
+          </div>
+            <!-- <div class="input-field col s12">
               <select multiple>
                 <option value="0" disabled selected></option>
                 <option value="1">Dental Assisstant</option>
                 <option value="2">Dental Hygenist</option>
                 <option value="3">Other</option>
               </select>
-              <label class="form-select-label">I am looking to hire (Select all that apply)*</label>
-            </div>
-            <div class="input-field col s12">
-                <label for="date">Preferred starting date</label> 
-                <input id="date" type="date" value="" placeholder=""/>
+              <label>I am looking to hire (Select all that apply)*</label>
             </div>
             <div class="input-field col s12">
               <select multiple>
@@ -122,26 +123,26 @@
                 <option value="3">35+ (hrs/week)</option>
               </select>
               <label class="form-select-label">How many hours do you need filled in ?</label>
-            </div>
+            </div> -->
             <div class="col s12 form-radio">
               <label>
-                <input name="group1" type="radio"/>
+                <input id="full" name="group1" type="radio" value="full-time"/>
                 <span>Full-Time</span>
               </label>
               <label>
-                <input name="group1" type="radio" />
+                <input id="part" name="group1" type="radio" value="part-time"/>
                 <span>Part-Time</span>
               </label>
               <label>
-                <input name="group1" type="radio" />
+                <input id="both" name="group1" type="radio" value="both"/>
                 <span>Both</span>
               </label>
             </div>
 
             <div class="col s12 flex-c-center">
               <button
+              id="submit-btn"
               class="btn waves-effect waves-light form-btn"
-              type="submit"
               name="action"
             >
               Submit
@@ -262,8 +263,28 @@
         </div>
 
     </section>
-    <footer class="flex-c-center">
-      <p>© Copyright 2021, All rights reserved</p>
+    <footer class="page-footer">
+      <div class="row footer-content">
+        <div class="col s12 l6 footer-content-left">
+          <img src="assets/KT.png" height="200px" width="auto" />
+          <div class="footer-contact">
+            <h3>Contact Information</h3>
+            <p>655-939-2233</p>
+            <p>email@email.com</p>
+          </div>
+        </div>
+        <div class="col s12 l6 footer-content-right">
+          <ul class="footer-links">
+            <li ><a href="./index.html">Home</a></li>
+            <li class="active"><a href="./services.html">Services</a></li>
+            <li><a href="./about.html">About KT Staffing Solution</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="copyright">© 2021 Copyright KT Staffing Solutions</div>
+      </div>
     </footer>
 
     <script src="scripts/app.js"></script>

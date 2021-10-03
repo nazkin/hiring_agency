@@ -224,6 +224,8 @@ form h3 {
   border: 1px solid #03173a;
   background-color: transparent;
 }
+.form-btn:active,
+.form-btn:focus,
 .form-btn:hover {
   background-color: #03173a;
   color: #fff;
@@ -231,6 +233,10 @@ form h3 {
 .input-select select:focus {
   border-bottom: 1px solid #03173a !important;
   box-shadow: 0 1px 0 0 #03173a !important;
+}
+.input-field {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .input-field label {
   color: #1d2020 !important;
@@ -343,6 +349,100 @@ form h3 {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.page-footer {
+  background-color: #03173a;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-content {
+  width: 100%;
+  height: 100%;
+  background-color: #012965;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-content-left {
+  height: 100%;
+  background: #012965;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-content-right {
+  height: 100%;
+  background: #012965;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-contact {
+  padding: 10px;
+  background-color: #03173a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0px 1px 0px #444b57e0;
+}
+.footer-contact p {
+  font-size: 18px;
+  text-align: center;
+
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #f5f1ed;
+  font-style: italic;
+  font-weight: 300;
+}
+.footer-contact h3 {
+  font-size: 25px;
+  line-height: 27px;
+  color: #024ab6;
+  font-weight: 300;
+  border-left: 5px solid #024ab6;
+  background: #f5f1ed;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer-links {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-links li a {
+  font-size: 1.3rem !important;
+  line-height: 3.5rem;
+  text-align: center;
+  color: #f5f1ed !important;
+  opacity: 0.5;
+  text-transform: uppercase !important;
+}
+.footer-links li a:hover {
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+.footer-links .active {
+  background-color: transparent !important;
+}
+.footer-links .active a {
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+.copyright {
+  font-size: 12px;
+  color: #03173a;
+  line-height: 16px;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {

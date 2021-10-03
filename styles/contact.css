@@ -7,6 +7,14 @@ blockquote {
   font-weight: 300;
   padding: 2.5rem;
 }
+.form-err {
+  font-size: 12px;
+  color: transparent;
+}
+.form-err-active {
+  font-size: 12px;
+  color: #bd3030;
+}
 .contact-section {
   min-height: 100vh;
   height: 50rem;
@@ -73,75 +81,3 @@ blockquote {
   margin-bottom: 0.5rem;
   color: #024ab6;
 }
-
-/* .form-section {
-  min-height: 100vh;
-  height: 50rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #f5f1ed;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.form-section .row {
-  height: 80%;
-  width: 80%;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-}
-
-.form-btn {
-  font-family: "Lora", serif;
-  color: #024ab6;
-  border: 1px solid #024ab6;
-  background-color: transparent;
-}
-.form-btn:hover {
-  background-color: #024ab6;
-  color: #fff;
-}
-
-.input-field textarea {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
-}
-.input-field input {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
-}
-
-.input-field input:focus {
-  color: #1d2020 !important;
-  border-bottom: 1px solid #024ab6 !important;
-  box-shadow: 0 1px 0 0 #024ab6 !important;
-}
-.input-field textarea:focus {
-  color: #1d2020 !important;
-  border-bottom: 1px solid #024ab6 !important;
-  box-shadow: 0 1px 0 0 #024ab6 !important;
-}
-
-.input-field input:focus + label {
-  color: #024ab6 !important;
-}
-.input-field textarea:focus + label {
-  color: #024ab6 !important;
-}
-.input-field input[type="text"].valid {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
-}
-.input-field input[type="email"].valid {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
-}
-.input-field textarea.valid {
-  border-bottom: 1px solid silver;
-  box-shadow: 0 1px 0 0 silver;
-} */
