@@ -294,6 +294,14 @@ form h3 {
   border-bottom: 1px solid #03173a;
   box-shadow: 0 1px 0 0 #03173a;
 }
+.input-field input[type="date"].focus {
+  border-bottom: 1px solid #03173a !important;
+  box-shadow: 0 1px 0 0 #03173a !important;
+}
+.input-field input[type="date"].valid {
+  border-bottom: 1px solid #03173a;
+  box-shadow: 0 1px 0 0 #03173a;
+}
 
 .input-field textarea.valid {
   border-bottom: 1px solid silver;
@@ -317,11 +325,12 @@ form h3 {
   top: 2% !important;
   max-height: 100vh !important;
   max-width: 950px;
+  overflow-y: auto;
 }
 
 .modal-content {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;

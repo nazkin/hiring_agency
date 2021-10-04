@@ -1,3 +1,7 @@
+(function () {
+  emailjs.init("user_ma4C8IA52CJWNkqA1lhHz");
+})();
+
 //FORM
 //Contact form selectors
 const businessName = document.querySelector("#business_name");
@@ -9,6 +13,7 @@ const fullTime = document.querySelector("#full");
 const partTime = document.querySelector("#part");
 const bothTimes = document.querySelector("#both");
 const submitBtn = document.querySelector("#submit-form");
+const hours = document.querySelector("#hours");
 const errorMessage = document.querySelector("#err");
 
 submitBtn.addEventListener("click", (e) => {
@@ -26,16 +31,25 @@ submitBtn.addEventListener("click", (e) => {
   } else if (bothTimes.checked) {
     typeOfJob = "Both part time and full time could work";
   }
+  const weeklyHours = [];
+  for (let i = 0; i < hours.selectedOptions.length; i++) {
+    weeklyHours.push(hours.selectedOptions[i].innerText);
+  }
+  const hoursValue = weeklyHours.join(" ");
 
   const formObject = {
     business_name: businessValue,
     contact_name: contactValue,
     phone: phoneValue,
     email: emailValue,
+    hours: hoursValue,
     date: dateValue,
     jobType: typeOfJob,
   };
-  console.log(formObject);
+  emailjs
+    .send("service_d1zundr", "template_ak2y25m", formObject)
+    .then(() => console.log("Success"))
+    .catch((err) => console.log("Error"));
 });
 
 // Intersection Observers

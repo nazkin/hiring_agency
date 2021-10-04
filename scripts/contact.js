@@ -1,3 +1,7 @@
+(function () {
+  emailjs.init("user_ma4C8IA52CJWNkqA1lhHz");
+})();
+
 //Contact form selectors
 const full_name = document.querySelector("#full_name");
 const email = document.querySelector("#email");
@@ -42,5 +46,10 @@ submitBtn.addEventListener("click", (e) => {
     roles: rolesValue,
     message: messageValue,
   };
-  console.log(formObject);
+  emailjs
+    .send("service_d1zundr", "template_e6n6odr", formObject)
+    .then((res) => {
+      console.log("Success");
+    })
+    .catch((err) => console.log(`Error: ${err}`));
 });

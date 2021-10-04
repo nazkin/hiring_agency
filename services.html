@@ -31,7 +31,11 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <!-- EmailJs -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/services.css" />
     <title>Hiring Agency</title>
@@ -102,28 +106,19 @@
               <label for="contact_phone">Phone*</label>
             </div>
             <div class="input-field col s12">
-              <label for="date">Preferred starting date</label> 
+              <label for="date">Preferred starting date</label>
               <input id="date" type="date" value="" placeholder=""/>
           </div>
-            <!-- <div class="input-field col s12">
-              <select multiple>
-                <option value="0" disabled selected></option>
-                <option value="1">Dental Assisstant</option>
-                <option value="2">Dental Hygenist</option>
-                <option value="3">Other</option>
-              </select>
-              <label>I am looking to hire (Select all that apply)*</label>
-            </div>
-            <div class="input-field col s12">
-              <select multiple>
-                <option value="0" disabled selected></option>
-                <option value="1">1 - 15 (hrs/week)</option>
-                <option value="2">15 - 25 (hrs/week)</option>
-                <option value="3">25 - 35 (hrs/week)</option>
-                <option value="3">35+ (hrs/week)</option>
-              </select>
-              <label class="form-select-label">How many hours do you need filled in ?</label>
-            </div> -->
+          <div class="input-field col s12">
+            <select id="hours" class="browser-default">
+              <option value="" disabled selected>How many hours are you looking to fill ?</option>
+              <option value="1 - 15 (hrs/week)">1 - 15 (hrs/week)</option>
+              <option value="15 - 25 (hrs/week)">15 - 25 (hrs/week)</option>
+              <option value="25 - 35 (hrs/week)">25 - 35 (hrs/week)</option>
+              <option value="35+ (hrs/week)">35+ (hrs/week)</option>
+            </select>
+          </div>
+
             <div class="col s12 form-radio">
               <label>
                 <input id="full" name="group1" type="radio" value="full-time"/>
