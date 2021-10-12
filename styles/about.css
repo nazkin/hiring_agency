@@ -19,9 +19,9 @@
   line-height: 2.7rem;
 }
 .about-title {
-  font-size: 7rem;
+  font-size: 6.5rem;
   font-weight: 300;
-  line-height: 8rem;
+  line-height: 7rem;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
@@ -30,8 +30,8 @@
 }
 #about-brand-span {
   letter-spacing: 1.5px;
-  font-size: 6rem;
-  line-height: 7rem;
+  font-size: 5rem;
+  line-height: 5.5rem;
   border-bottom: 2px solid #012965a8;
   border-top: 2px solid #012965a8;
   color: #012965;
@@ -46,8 +46,8 @@
   padding: 1rem;
 }
 .about-desc h3 {
-  font-size: 4rem;
-  line-height: 5rem;
+  font-size: 3rem;
+  line-height: 4rem;
   font-weight: 300;
   color: #012965;
   text-align: center;
@@ -58,6 +58,8 @@
   font-weight: 300;
   font-size: 1.1rem;
   text-align: center;
+  padding: 1.5rem;
+  margin: 10px 0 10px 0;
 }
 
 .about-cities-container {
@@ -88,21 +90,21 @@
   background-size: cover;
 }
 .about-cities {
-  color: #a9b7c7;
+  color: #fff;
   font-weight: 300;
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
   line-height: 4rem;
   overflow-y: hidden;
+  text-shadow: 1px 1px #a9b7c7;
 }
 .about-cities-list {
-  color: #fff;
+  color: #ced3da;
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
-  text-transform: uppercase;
-  line-height: 5rem;
+  line-height: 3rem;
   overflow-y: hidden;
 }
 .about-cta-section {
@@ -116,7 +118,7 @@
   position: relative;
 }
 .about-cta-section p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 300;
   color: #202832;
   text-align: center;
@@ -154,4 +156,29 @@
   right: 2%;
   width: 20%;
   height: auto;
+}
+.about-247-text {
+  color: #024ab6;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  margin: 5px 0 20px 0;
+  text-transform: capitalize;
+}
+.about-247-text b {
+  margin: 0 12px 0 12px;
+  padding: 5px;
+  background: #024ab6;
+  color: #fff;
+}
+.responsive-img-wrapper {
+  width: 100% !important;
+  max-width: 600px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
