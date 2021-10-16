@@ -13,6 +13,7 @@ const errorMessage = document.querySelector("#err");
 
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
+
   const nameValue = full_name.value;
   const emailValue = email.value;
   const phoneValue = phone.value;
@@ -49,7 +50,11 @@ submitBtn.addEventListener("click", (e) => {
   emailjs
     .send("service_d1zundr", "template_e6n6odr", formObject)
     .then((res) => {
-      console.log("Success");
+      nameValue = "";
+      emailValue = "";
+      phoneValue = "";
+      messageValue = "";
+      window.location.href = "contact.html";
     })
     .catch((err) => console.log(`Error: ${err}`));
 });
