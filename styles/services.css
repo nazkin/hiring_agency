@@ -3,6 +3,9 @@ div > p {
   margin: 4rem;
   color: inherit;
 }
+.services-container {
+  padding: 2rem;
+}
 .service-header {
   background-image: url(../assets/background.jpg);
   background-position: 10% 0%;
@@ -250,8 +253,57 @@ div > p {
 }
 
 .services-section {
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: aliceblue;
 }
+.services-section-title-1 {
+  color: white;
+  font-weight: 400;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.services-section-title-2 {
+  color: #001b44;
+  font-weight: 400;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.assisstant {
+  width: 100%;
+  height: 30rem;
+  background-image: url(../assets/assisstant_img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.hygenist {
+  width: 100%;
+  height: 30rem;
+  background-image: url(../assets/hygenist_img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.lens-dark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lens-light {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .assisstant-img {
   min-height: 40rem;
 }
