@@ -24,10 +24,11 @@ div > p {
   color: #012965a8;
   font-size: 2rem;
   font-weight: 300;
-  line-height: 2.7rem;
+  line-height: 2.4rem;
+  text-align: center;
 }
 .services-title {
-  font-size: 5.5rem;
+  font-size: 5rem;
   font-weight: 300;
   line-height: 6rem;
   text-transform: uppercase;
@@ -38,10 +39,10 @@ div > p {
 }
 #brand-span {
   letter-spacing: 1.5px;
-  border-bottom: 2px solid #012965a8;
-  border-top: 2px solid #012965a8;
   color: #012965;
   padding: 5px;
+  font-size: 5rem;
+  text-align: center;
 }
 .serv-cities-container {
   width: 100%;
@@ -264,6 +265,12 @@ div > p {
   font-weight: 400;
   font-size: 3rem;
   padding: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.services-section-title-1:hover {
+  cursor: pointer;
+  border-bottom: 2px solid white;
 }
 
 .services-section-title-2 {
@@ -271,8 +278,29 @@ div > p {
   font-weight: 400;
   font-size: 3rem;
   padding: 10px;
+  border-bottom: 2px solid transparent;
 }
 
+.services-section-title-2:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #001b44;
+}
+.services-paragraph {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #313c49;
+  line-height: 2.2rem;
+  font-weight: 200;
+  padding: 10px;
+}
+.services-paragraph span {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #001b44;
+  line-height: 2.2rem;
+  font-weight: 400;
+  padding: 5px;
+}
 .assisstant {
   width: 100%;
   height: 30rem;
